@@ -1,0 +1,139 @@
+/*CSS voor hele body*/ 
+body{
+	font-family: montserrat;
+	color: #FFFFFF;
+	background-image: url("star.jpeg");
+}
+
+/*Kop: welcome */ 
+h1 {
+	text-align: center;
+	font-size: 30px;
+}
+
+/*Container waar alles in zit*/ 
+#container {
+	display: flex;
+	flex-direction: column;
+}
+
+/* API 1 */
+#API1 { /* Box API1 */ 
+	background-color: #141B3D;
+	margin-bottom: 3%;
+	width: 100%;
+	height: 100%;
+	margin-right: 1%;
+	/*margin-left: 1%;*/
+	/*position: absolute;*/
+	color: black;
+	text-align: center;
+	border: solid white 2px;
+}
+
+/* Image homepage */ 
+#space1 {
+	width: 100%;
+	height: 70%;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+}
+
+.figure p {
+	display: table-cell;
+	width: 100%;
+	font-size: 8px;
+}
+
+/* Kop plan your landing */ 
+#header {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	box-shadow: 10%;
+	color: white;
+}
+
+/* Text die geprint wordt in API 1*/ 
+.text {
+	margin-bottom: 1%;
+	color: white;
+}
+
+/* Text die geprint wordt in API 1*/ 
+#message {
+	margin-bottom: 20px;
+	font-weight: bold;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	color: white;
+	margin-top: 2%;
+}
+
+/* API 2 */ 
+#API2 { /* Box API2 */ 
+	background-color: #141B3D;
+	width: 100%;
+	color: black;
+	border: solid white 2px;
+	height: 100%;
+}
+
+/*Kop boven information city*/ 
+#header2 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	color: white;
+}
+
+/*Informatie over de city die geprint wordt*/ 
+#cityinfo {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	color: white;
+}
+
+/*Map die te zien is over de ingevulde stad*/ 
+#map {
+	display: block;
+	padding: 40px 0;
+	width: 100%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+/*Afbeelding API2*/ 
+
+/*Mediaqueries 3 devices*/
+/*Phone & Tablet versie*/
+@media only screen and (min-width: 768px) {
+
+}
+
+/*Laptop versie */
+@media only screen and (min-width: 1024px) {
+	#container {
+		flex-direction: row;
+	}
+}
+
+/*Desktop versie */
+@media (min-width: 1920px) {
+
+}
